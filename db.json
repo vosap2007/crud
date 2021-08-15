@@ -1,0 +1,58 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Никки Парсон. Четыре башни",
+      "author": "Владимир Удовиченко",
+      "genres": [
+        "фэнтези"
+      ],
+      "rating": 10
+    },
+    {
+      "id": 2,
+      "title": "Последнее Королевство",
+      "author": "Bernard Korneuli",
+      "genres": [
+        "action"
+      ],
+      "rating": 8.38
+    },
+    {
+      "id": 3,
+      "title": "Дом обороьня",
+      "author": "Вольфган Снупи",
+      "genres": [
+        "action"
+      ],
+      "rating": 8.88
+    },
+    {
+      "id": 4,
+      "title": "В последний раз",
+      "author": "Чупа Кабра",
+      "genres": [
+        "action"
+      ],
+      "rating": 7.32
+    },
+    {
+      "id": 5,
+      "title": "Валерчик",
+      "author": "Валерчик",
+      "genres": [
+        "фэнтези"
+      ],
+      "rating": 5
+    },
+    {
+      "title": "Flay is the sky",
+      "author": "Nikoljai",
+      "genres": [
+        "farr"
+      ],
+      "rating": 9.5,
+      "id": 7
+    }
+  ]
+}

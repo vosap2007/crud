@@ -172,24 +172,18 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 // function createBook() {
 //     console.log
 // };
-var BASE_URL = 'http://localhost:3000';
-
-function deleteBook(idBook) {
-  var options = {
-    method: 'DELETE',
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  };
-  return fetch("".concat(BASE_URL, "/books/").concat(idBook), options).then(function (r) {
-    return r.json();
-  });
-}
-
-;
-deleteBook(6).then(function (r) {
-  return console.log(r);
-});
+// const BASE_URL = 'http://localhost:3000';
+// function deleteBook(idBook) {
+//     const options = {
+//         method: 'DELETE',
+//         headers: {
+//             'Content-Type': 'application/json',
+//         },
+//     };
+//     return fetch(`${BASE_URL}/books/${idBook}`, options)
+//                 .then(r => r.json())
+// };
+// deleteBook(6).then(r => console.log(r))
 },{}],"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';

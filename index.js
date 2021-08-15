@@ -67,18 +67,18 @@
 //     console.log
 // };
 
-const BASE_URL = 'http://localhost:3000';
+// const BASE_URL = 'http://localhost:3000';
 
-function deleteBook(idBook) {
-    const options = {
-        method: 'DELETE',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-    };
+// function deleteBook(idBook) {
+//     const options = {
+//         method: 'DELETE',
+//         headers: {
+//             'Content-Type': 'application/json',
+//         },
+//     };
 
-    return fetch(`${BASE_URL}/books/${idBook}`, options)
-                .then(r => r.json())
-};
+//     return fetch(`${BASE_URL}/books/${idBook}`, options)
+//                 .then(r => r.json())
+// };
 
-deleteBook(6).then(r => console.log(r))
+// deleteBook(6).then(r => console.log(r))
